@@ -222,6 +222,45 @@ section{
     background: var(--bg-color);
 }
 
+/* best-selling */
+.menu .best-selling .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu .best-selling .row .image{
+    flex: 1 1 39rem;
+}
+
+.menu .best-selling .row .image img{
+    width: 100%;
+}
+
+.menu .best-selling .row .content{
+    flex: 1 1 51rem;
+    padding: 8rem;
+}
+
+.menu .best-selling .row .content h3{
+    font-size: 3.5rem;
+    color: var(--main-color);
+    padding: 2rem 0;
+}
+
+.menu .best-selling .row .content p{
+    font-size: 1.6rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.menu .best-selling .row .content .price{
+    color: var(--main-color);
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
