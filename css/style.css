@@ -84,9 +84,12 @@ section{
 }
 
 .header .logo{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bolder;
-    color: var(--black);
+    color: #3b3329;
+    display: flex;
+    align-items: center;
+
 }
 
 .header .logo i{
@@ -98,6 +101,7 @@ section{
     font-size: 2rem;
     margin-left: 7rem;
     color: var(--black);
+    font-weight: 500;
 }
 
 .header .navbar a:hover{
